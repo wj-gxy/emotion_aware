@@ -7,8 +7,7 @@
 再利用CNN提取提取谣言情感特征和用户评论情感特征，
 最后利用两次co-attention学习两者的协同表示，
 最后将所有特征连接分类
-
-##架构：
+## **架构** ：
 #1.emotional embedding
 文件是情感嵌入的预训练模型，源代码发布在 https://github.com/armintabari/Emotional-Embedding，
 源代码是在python2 的环境下，此文件中是python3的环境下可运行代码。
